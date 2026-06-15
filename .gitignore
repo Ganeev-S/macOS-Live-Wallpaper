@@ -1,0 +1,25 @@
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager, in case this project grows to use packages later.
+.build/
+
+# Archives and release artifacts
+dist/
+*.app
+*.xcarchive
+*.dmg
+*.zip
+
+# Local notes and generated app data
+.env
+*.log
